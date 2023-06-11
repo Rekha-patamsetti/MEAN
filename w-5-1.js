@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body style="background-color:grey;">
+        <center><h1><i>Shop Time</i></h1>
+        <h2 align="center">One stop for all your needs</h2>
+        <header>
+            <nav align="center"><h3>Home || Login || Register || Whishlist || My Orders || Help</h3>
+            </nav>
+        </header></center>
+       <h2>JavaScript Arrays</h2>
+       <img src="harry.jpg" width="300px" height="300px"></img>
+       <B><h1 id="demo1"></h1></B>
+       <p id="demo2"></p>
+       <p id="demo3"></p>
+       <p id="demo4"></p>
+       <script>
+        const Movie=["The Harry Potter","English","10","Daniel",];
+        document.getElementById("demo1").innerHTML="Movie:"+Movie[0];
+        document.getElementById("demo2").innerHTML="Language:"+Movie[1];
+        document.getElementById("demo3").innerHTML="Rating:"+Movie[2];
+        document.getElementById("demo4").innerHTML="Starring:"+Movie[3];
+       </script>
+    </body>
+</html>
